@@ -55,27 +55,6 @@ A real-time location sharing application built with modern web technologies, fea
 - **Prettier**: Code formatting
 - **TypeScript**: Static type checking
 
-## 📁 Project Structure
-
-\`\`\`
-├── app/
-│   ├── page.tsx              # Home page
-│   ├── sender/page.tsx       # Location sender interface
-│   ├── receiver/page.tsx     # Location receiver interface
-│   └── layout.tsx            # Root layout
-├── components/
-│   ├── ui/                   # shadcn/ui components
-│   ├── user-a-sender.tsx     # Sender component
-│   ├── user-b-receiver.tsx   # Receiver component
-│   ├── map-component.tsx     # Interactive map
-│   ├── location-map-picker.tsx # Map location selector
-│   └── development-notice.tsx # Error handling
-├── hooks/
-│   └── use-signalr.ts        # SignalR connection hook
-└── lib/
-    └── utils.ts              # Utility functions
-\`\`\`
-
 ## 🚦 Getting Started
 
 ### Prerequisites
